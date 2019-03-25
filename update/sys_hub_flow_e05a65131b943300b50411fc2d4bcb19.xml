@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>close_child_incident</internal_name>
+        <label_cache>[{"name":"1ccdabfb-69b1-4d55-bf79-56d7399228d9.Record.correlation_group","label":"1➛Alert Record➛Role in Group","reference":"","reference_display":"Role in Group","type":"choice","base_type":"choice","parent_table_name":"em_alert","column_name":"correlation_group"},{"name":"1ccdabfb-69b1-4d55-bf79-56d7399228d9.Record","label":"1➛Alert Record","reference":"em_alert","reference_display":"Alert","type":"reference","base_type":"reference"},{"name":"1ccdabfb-69b1-4d55-bf79-56d7399228d9.Table","label":"1➛Alert Table","reference":"em_alert","reference_display":"Alert","type":"table_name","base_type":"table_name"},{"name":"Updated_1.current.number","label":"Trigger➛Incident Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"incident","column_name":"number"},{"name":"e3e81ea1-45f3-4e35-80b0-4105c0cb2fe1.Records","label":"2.1➛Alert Records","reference":"em_alert","reference_display":"Alert","type":"records","base_type":"records"},{"name":"e3e81ea1-45f3-4e35-80b0-4105c0cb2fe1.Table","label":"2.1➛Alert Table","reference":"em_alert","reference_display":"Alert","type":"table_name","base_type":"table_name"},{"name":"e3e81ea1-45f3-4e35-80b0-4105c0cb2fe1.Count","label":"2.1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"1ccdabfb-69b1-4d55-bf79-56d7399228d9.Record.number","label":"1➛Alert Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"em_alert","column_name":"number"},{"name":"26d25704-8072-4680-932c-af9ea7ba61eb.item","label":"2.2➛Alert Record","reference":"em_alert","reference_display":"Alert","type":"reference","base_type":"reference"},{"name":"d67d43e1-6ea0-437e-a0ce-e30516ac23ac.record","label":"3.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"d67d43e1-6ea0-437e-a0ce-e30516ac23ac.table_name","label":"3.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"f999231e-686a-4063-a42e-fda653f206c1.Records","label":"3.1➛Records","reference_display":"Records","type":"records","base_type":"records"},{"name":"f999231e-686a-4063-a42e-fda653f206c1.Table","label":"3.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"f999231e-686a-4063-a42e-fda653f206c1.Count","label":"3.1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"ca731072-f8db-4926-9ee1-4de60a4ecdd3.Record","label":"2.2.1➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"},{"name":"ca731072-f8db-4926-9ee1-4de60a4ecdd3.Table","label":"2.2.1➛Incident Table","reference":"incident","reference_display":"Incident","type":"table_name","base_type":"table_name"},{"name":"26d25704-8072-4680-932c-af9ea7ba61eb.item.incident.number","label":"2.2➛Alert Record➛Task➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"task","column_name":"number"},{"name":"856aea12-45c0-4786-965c-71ec16508bb3.record","label":"2.2.2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"856aea12-45c0-4786-965c-71ec16508bb3.table_name","label":"2.2.2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"}]</label_cache>
+        <latest_snapshot>fefc56df1b183300b50411fc2d4bcb1c</latest_snapshot>
+        <master_snapshot>babc06df1bd43300b50411fc2d4bcb1e</master_snapshot>
+        <name>Close Child Incident</name>
+        <outputs/>
+        <remote_trigger_id>7bbcc6df1bd43300b50411fc2d4bcbac</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>gianpaolo.pagano</sys_created_by>
+        <sys_created_on>2019-03-25 11:07:47</sys_created_on>
+        <sys_id>e05a65131b943300b50411fc2d4bcb19</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>Close Child Incident</sys_name>
+        <sys_package display_value="GP_Flows" source="x_snc_gp_flows">4c89a9df1b543300b50411fc2d4bcb58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GP_Flows">4c89a9df1b543300b50411fc2d4bcb58</sys_scope>
+        <sys_update_name>sys_hub_flow_e05a65131b943300b50411fc2d4bcb19</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-03-25 14:49:08</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=e05a65131b943300b50411fc2d4bcb19"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e05a65131b943300b50411fc2d4bcb19"/>
+</record_update>

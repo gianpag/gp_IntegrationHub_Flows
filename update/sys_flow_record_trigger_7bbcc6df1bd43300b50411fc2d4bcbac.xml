@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_record_trigger">
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="incident">stateCHANGESTO6^contact_typeLIKEAlert^ORcaller_id=9d5de9e5930022005bc5f179077ffb07<item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="6"/>
+            <item endquery="false" field="contact_type" goto="false" newquery="false" operator="LIKE" or="false" value="Alert"/>
+            <item display_table="sys_user" display_value="Event Management " endquery="false" field="caller_id" goto="false" newquery="false" operator="=" or="true" value="9d5de9e5930022005bc5f179077ffb07"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>gianpaolo.pagano</sys_created_by>
+        <sys_created_on>2019-03-25 13:38:11</sys_created_on>
+        <sys_id>7bbcc6df1bd43300b50411fc2d4bcbac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GP_Flows" source="x_snc_gp_flows">4c89a9df1b543300b50411fc2d4bcb58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GP_Flows">4c89a9df1b543300b50411fc2d4bcb58</sys_scope>
+        <sys_update_name>sys_flow_record_trigger_7bbcc6df1bd43300b50411fc2d4bcbac</sys_update_name>
+        <sys_updated_by>gianpaolo.pagano</sys_updated_by>
+        <sys_updated_on>2019-03-25 13:45:36</sys_updated_on>
+        <table>incident</table>
+    </sys_flow_record_trigger>
+</record_update>

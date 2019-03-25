@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>close_child_incident</internal_name>
+        <label_cache>[{"name":"1ccdabfb-69b1-4d55-bf79-56d7399228d9.Record","label":"1➛Alert Record","reference":"em_alert","reference_display":"Alert","type":"reference","base_type":"reference"},{"name":"1ccdabfb-69b1-4d55-bf79-56d7399228d9.Table","label":"1➛Alert Table","reference":"em_alert","reference_display":"Alert","type":"table_name","base_type":"table_name"},{"name":"Updated_1.current.number","label":"Trigger➛Incident Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"incident","column_name":"number"},{"name":"e3e81ea1-45f3-4e35-80b0-4105c0cb2fe1.Records","label":"2➛Alert Records","reference":"em_alert","reference_display":"Alert","type":"records","base_type":"records"},{"name":"e3e81ea1-45f3-4e35-80b0-4105c0cb2fe1.Table","label":"2➛Alert Table","reference":"em_alert","reference_display":"Alert","type":"table_name","base_type":"table_name"},{"name":"e3e81ea1-45f3-4e35-80b0-4105c0cb2fe1.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"1ccdabfb-69b1-4d55-bf79-56d7399228d9.Record.number","label":"1➛Alert Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"em_alert","column_name":"number"},{"name":"26d25704-8072-4680-932c-af9ea7ba61eb.item","label":"3➛Alert Record","reference":"em_alert","reference_display":"Alert","type":"reference","base_type":"reference"},{"name":"d67d43e1-6ea0-437e-a0ce-e30516ac23ac.record","label":"3.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"d67d43e1-6ea0-437e-a0ce-e30516ac23ac.table_name","label":"3.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"f999231e-686a-4063-a42e-fda653f206c1.Records","label":"3.1➛Records","reference_display":"Records","type":"records","base_type":"records"},{"name":"f999231e-686a-4063-a42e-fda653f206c1.Table","label":"3.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"f999231e-686a-4063-a42e-fda653f206c1.Count","label":"3.1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"ca731072-f8db-4926-9ee1-4de60a4ecdd3.Record","label":"3.1➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"},{"name":"ca731072-f8db-4926-9ee1-4de60a4ecdd3.Table","label":"3.1➛Incident Table","reference":"incident","reference_display":"Incident","type":"table_name","base_type":"table_name"},{"name":"26d25704-8072-4680-932c-af9ea7ba61eb.item.incident.number","label":"3➛Alert Record➛Task➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"task","column_name":"number"},{"name":"856aea12-45c0-4786-965c-71ec16508bb3.record","label":"3.2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"856aea12-45c0-4786-965c-71ec16508bb3.table_name","label":"3.2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"}]</label_cache>
+        <master>true</master>
+        <name>Close Child Incident</name>
+        <outputs/>
+        <parent_flow display_value="Close Child Incident">e05a65131b943300b50411fc2d4bcb19</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>gianpaolo.pagano</sys_created_by>
+        <sys_created_on>2019-03-25 13:38:07</sys_created_on>
+        <sys_id>babc06df1bd43300b50411fc2d4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Close Child Incident</sys_name>
+        <sys_package display_value="GP_Flows" source="x_snc_gp_flows">4c89a9df1b543300b50411fc2d4bcb58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GP_Flows">4c89a9df1b543300b50411fc2d4bcb58</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_babc06df1bd43300b50411fc2d4bcb1e</sys_update_name>
+        <sys_updated_by>gianpaolo.pagano</sys_updated_by>
+        <sys_updated_on>2019-03-25 13:38:07</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=babc06df1bd43300b50411fc2d4bcb1e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=babc06df1bd43300b50411fc2d4bcb1e"/>
+</record_update>

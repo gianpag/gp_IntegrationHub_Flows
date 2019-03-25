@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Close Child Incident">babc06df1bd43300b50411fc2d4bcb1e</flow>
+        <order>2.2.2</order>
+        <parent_ui_id>26d25704-8072-4680-932c-af9ea7ba61eb</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>gianpaolo.pagano</sys_created_by>
+        <sys_created_on>2019-03-25 13:38:10</sys_created_on>
+        <sys_id>a7bcc6df1bd43300b50411fc2d4bcb89</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GP_Flows" source="x_snc_gp_flows">4c89a9df1b543300b50411fc2d4bcb58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GP_Flows">4c89a9df1b543300b50411fc2d4bcb58</sys_scope>
+        <sys_update_name>sys_hub_action_instance_a7bcc6df1bd43300b50411fc2d4bcb89</sys_update_name>
+        <sys_updated_by>gianpaolo.pagano</sys_updated_by>
+        <sys_updated_on>2019-03-25 14:45:31</sys_updated_on>
+        <ui_id>856aea12-45c0-4786-965c-71ec16508bb3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a7bcc6df1bd43300b50411fc2d4bcb89"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a7bcc6df1bd43300b50411fc2d4bcb89</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>gianpaolo.pagano</sys_created_by>
+        <sys_created_on>2019-03-25 13:38:10</sys_created_on>
+        <sys_id>2fbcc6df1bd43300b50411fc2d4bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gianpaolo.pagano</sys_updated_by>
+        <sys_updated_on>2019-03-25 13:38:10</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a7bcc6df1bd43300b50411fc2d4bcb89</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>gianpaolo.pagano</sys_created_by>
+        <sys_created_on>2019-03-25 13:38:10</sys_created_on>
+        <sys_id>6bbcc6df1bd43300b50411fc2d4bcb8e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>gianpaolo.pagano</sys_updated_by>
+        <sys_updated_on>2019-03-25 14:09:36</sys_updated_on>
+        <value/>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a7bcc6df1bd43300b50411fc2d4bcb89"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a7bcc6df1bd43300b50411fc2d4bcb89</id>
+        <sys_created_by>gianpaolo.pagano</sys_created_by>
+        <sys_created_on>2019-03-25 13:38:10</sys_created_on>
+        <sys_id>27bcc6df1bd43300b50411fc2d4bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gianpaolo.pagano</sys_updated_by>
+        <sys_updated_on>2019-03-25 13:38:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ca731072-f8db-4926-9ee1-4de60a4ecdd3.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a7bcc6df1bd43300b50411fc2d4bcb89</id>
+        <sys_created_by>gianpaolo.pagano</sys_created_by>
+        <sys_created_on>2019-03-25 13:38:10</sys_created_on>
+        <sys_id>63bcc6df1bd43300b50411fc2d4bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gianpaolo.pagano</sys_updated_by>
+        <sys_updated_on>2019-03-25 13:38:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a7bcc6df1bd43300b50411fc2d4bcb89</id>
+        <sys_created_by>gianpaolo.pagano</sys_created_by>
+        <sys_created_on>2019-03-25 13:38:10</sys_created_on>
+        <sys_id>e7bcc6df1bd43300b50411fc2d4bcb8e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>gianpaolo.pagano</sys_updated_by>
+        <sys_updated_on>2019-03-25 14:16:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>state=6^close_code=Closed/Resolved by Caller^close_notes=Automated Resolution because of closure of  incident {{Updated_1.current.number}} on primary alert {{1ccdabfb-69b1-4d55-bf79-56d7399228d9.Record.number}}</value>
+    </sys_element_mapping>
+</record_update>

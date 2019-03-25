@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_cat_variable_model">
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c63296571b183300b50411fc2d4bcb86</id>
+        <name>Close Child Incident</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>gianpaolo.pagano</sys_created_by>
+        <sys_created_on>2019-03-25 14:02:07</sys_created_on>
+        <sys_id>ce3296571b183300b50411fc2d4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Close Child Incident</sys_name>
+        <sys_package display_value="GP_Flows" source="x_snc_gp_flows">4c89a9df1b543300b50411fc2d4bcb58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GP_Flows">4c89a9df1b543300b50411fc2d4bcb58</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_ce3296571b183300b50411fc2d4bcb86</sys_update_name>
+        <sys_updated_by>gianpaolo.pagano</sys_updated_by>
+        <sys_updated_on>2019-03-25 14:02:07</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>
